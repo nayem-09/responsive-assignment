@@ -17,9 +17,7 @@
 
 /* common css */
 
-.alien-word{
-    color: #FF42A5;
-}
+
 .common-btn{
     color: #FFF;
     font-size: 1.25em;
@@ -51,11 +49,13 @@
     display: flex;
     gap: 1.25rem;
     align-items: center;
+    font-size: 16px;
 }
 .logo-text{
     color: #0B0223;
-    font-size: 2.8rem;
+    font-size: 2.8em;
     font-weight: 700;
+    line-height: 3.8rem;
 }
 .menu-area ul{
     display: flex;
@@ -274,14 +274,57 @@
 }
 
 
+/* play instantly section */
+.overlay-image{
+    height:50% ;}
+
+.play-instantly-container{
+    display: flex;
+    gap: 7.5rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-instantly-content{
+    display: flex;
+    gap: 2rem;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: right;
+}
+.play-instantly-image{
+    max-width: 784px;
+    position:relative;
+    
+
+}
+
+.main-image{
+   
+    width: 100%;
+}
 
 
+.overlay-image{
+    position: absolute;
+   
+    left: -15%;
+    bottom: -10%;
+    
+}
+/* alien word */
+
+.alien-word{
+    color: #FF42A5;
+}
 
 /* media queri for smaller device */
 @media screen and (max-width:576px) {
    
 
-    .nav-container,.menu-area ul,.we-are-gamer-container{
+    .nav-container,.menu-area ul,.we-are-gamer-container
+    ,.play-instantly-container{
         flex-direction: column;
         gap:2rem ;
     }
@@ -291,7 +334,11 @@
     justify-content: center;
    
    }
-   .banner-content, .we-are-gamer-content,.online-games-container{
+   .play-instantly-content{
+    text-align: center;
+   }
+   .banner-content, .we-are-gamer-content,.online-games-container
+   ,.logo-area,.play-instantly-content{
     font-size:10px; 
     text-align: center;
    }
@@ -309,7 +356,7 @@
     
    }
 
-   .we-are-gamer{
+   .we-are-gamer,.play-instantly-container{
     width: 100vw;
    }
    .we-are-gamer-content{
@@ -321,6 +368,12 @@
 .card-container{
     grid-template-columns:20rem;
 }
+.play-instantly-image{
+    width: 70%;
+}
+
+
+
     
 }
 
