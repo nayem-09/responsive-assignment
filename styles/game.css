@@ -184,9 +184,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.we-are-gamer-image img{
-    width:100% ;
-}
+
+
 .we-are-gamer-content{
     margin: 5.93rem 0;
 
@@ -271,6 +270,9 @@
    .we-are-gamer-content{
        margin: 0;
    }
+   .we-are-gamer-image img{
+    width:100% ;
+}
     
 }
 
