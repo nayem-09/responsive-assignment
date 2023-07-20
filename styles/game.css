@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    
+
+    
+
+
+
+}
+
+ 
+
+/* common css */
+
+.alien-word{
+    color: #FF42A5;
+}
+.common-btn{
+    color: #FFF;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding: 1.26rem 2.5rem;
+    border: 0;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+/* nav area styles */
+
+
+
+.nav-area{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width:1440px ;
+    width: 96%;
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+.logo-area{
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+.logo-text{
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.menu-area ul{
+    display: flex;
+    list-style:none ;
+    gap: 2rem;
+    align-items: center;
+}
+.menu-area ul li {
+    color: #3C354F;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+.menu-area ul li a{
+    color: #3C354F;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-btn-container{
+    border-radius: 8px;
+    padding:1rem 2rem ;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+
+}
+
+.yt-btn,.tiktok-btn{
+    border: 0;
+   background-color:transparent ;
+   margin: 0.5rem;
+}
+.yt-btn i{
+    color: red;
+    font-size:1.5rem ;
+   
+}
+.tiktok-btn i{
+    font-size: 1.5rem;
+    color: #0B0223;
+
+}
+
+
+
+
+
+/* banner section styles */
+.banner-main-container{
+  
+    background: url("../images/Group 14.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    max-width: 1920px;
+    margin:0 auto ;
+}
+.banner-container{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 96%;
+    margin: 0 auto;
+    
+}
+
+.banner-content{
+    font-size: 16px;
+}
+
+
+.banner-heading1{
+    color: #0B0223;
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.banner-heading2{
+    font-size: 5.93em;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+
+}
+.banner-p{
+    color: #534C64;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom:1.25rem ;
+}
+.banner-buttons{
+    display: flex;
+    gap: 3rem;
+    margin-top:2.5rem ;
+}
+.banner-btn{
+    color: #FFF;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding: 1.26rem 2.5rem;
+    border: 0;
+    border-radius: 48px;
+    background:#4EC5F7;
+}
+
+/* media queri for smaller device */
+@media screen and (max-width:576px) {
+   
+
+    .nav-container,.menu-area ul{
+        flex-direction: column;
+        gap:2rem ;
+    }
+   .banner-container{
+    flex-direction: column-reverse;
+    gap: 4rem;
+    justify-content: center;
+   
+   }
+   .banner-content{
+    font-size:10px; 
+    text-align: center
+   }
+   .banner-buttons{
+    gap: 1rem;
+   }
+   
+
+   .banner-image{
+    padding: 1rem;
+   }
+   .banner-main-container{
+    width: 100%;
+    background-size: 100% auto;
+    
+   }
+    
+}
+
