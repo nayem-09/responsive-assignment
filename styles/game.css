@@ -313,6 +313,132 @@
     bottom: -10%;
     
 }
+
+
+.types-of-games-section{
+    max-width: 1920px;
+    margin:0 auto;
+    padding: 4rem 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.types-of-games{
+    
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 94%;
+    min-height: 200px;
+    margin: 6rem auto;
+    padding-bottom: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    
+
+    
+}
+.games-name{
+    max-width:300px ;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1.3rem ;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    margin: 0 auto;
+    border: 2px solid #FFF;
+    
+  
+}
+.games-name:hover{
+    border: 2px solid #F948B2;
+    color: #F948B2;
+    cursor: pointer;
+
+}
+
+.games-name p{
+
+font-size: 1.25em;
+font-weight: 600;
+}
+.games-name img{
+    margin-right: 0.7rem;
+    max-width: 50px;
+    width: 100%;
+}
+
+/* footer */
+
+
+
+.footer-section{
+    background: #0B0223;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 60px 50px;
+
+    font-size: 16px;
+}
+.header-icons{
+    margin: 0 auto;
+}
+.footer-title{
+    color: white;
+}
+.footer-topics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
+.social-icons-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 74px;
+}
+.all-types-conditions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 18px;
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.icon2{
+    color: white;
+    font-size: 3em;
+
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
 /* alien word */
 
 .alien-word{
@@ -338,7 +464,8 @@
     text-align: center;
    }
    .banner-content, .we-are-gamer-content,.online-games-container
-   ,.logo-area,.play-instantly-content{
+   ,.logo-area,.play-instantly-content
+   ,.types-of-games,.footer-section{
     font-size:10px; 
     text-align: center;
    }
@@ -356,7 +483,9 @@
     
    }
 
-   .we-are-gamer,.play-instantly-container{
+   .we-are-gamer,.play-instantly-container
+   ,.types-of-games
+   ,.types-of-games-section{
     width: 100vw;
    }
    .we-are-gamer-content{
@@ -371,7 +500,27 @@
 .play-instantly-image{
     width: 70%;
 }
+.types-of-games img{
+   width: 30px;
+}
+.types-of-games{
+    padding: 0.3rem;
+}
+.types-of-games-section{
 
+
+
+    padding:0 ;
+}
+.footer-topics
+,.all-types-conditions{
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+.social-icons-links{
+    gap: 20px;
+}
 
 
     
