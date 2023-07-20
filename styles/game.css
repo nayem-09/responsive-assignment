@@ -9,6 +9,9 @@
 
 
 }
+.hidden{
+    display: none;
+}
 
  
 
@@ -164,11 +167,77 @@
     background:#4EC5F7;
 }
 
+
+/* we are gamer section */
+
+.we-are-gamer{
+    max-width:1920px ;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.we-are-gamer-image img{
+    width:100% ;
+}
+.we-are-gamer-content{
+    margin: 5.93rem 0;
+
+    font-size: 16px;
+    text-align: right;
+}
+
+.we--gamer-heading1{
+    font-size: 3em;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+
+
+    
+}
+.we--gamer-p1{
+    color: #534C64;
+    font-size: 1.12rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87rem; 
+    margin-bottom: 1.5em;
+}
+.we--gamer-p2{
+    margin: 1.5rem 0;
+    color: #534C64;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+}
+.we--gamer-heading2{
+    color: #534C64;
+    font-size: 2em;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
 /* media queri for smaller device */
 @media screen and (max-width:576px) {
    
 
-    .nav-container,.menu-area ul{
+    .nav-container,.menu-area ul,.we-are-gamer-container{
         flex-direction: column;
         gap:2rem ;
     }
@@ -178,22 +247,29 @@
     justify-content: center;
    
    }
-   .banner-content{
+   .banner-content, .we-are-gamer-content{
     font-size:10px; 
-    text-align: center
+    text-align: center;
    }
    .banner-buttons{
     gap: 1rem;
    }
    
 
-   .banner-image{
+   .banner-image,.we-are-gamer-content{
     padding: 1rem;
    }
    .banner-main-container{
-    width: 100%;
+    width: 100vw;
     background-size: 100% auto;
     
+   }
+
+   .we-are-gamer{
+    width: 100vw;
+   }
+   .we-are-gamer-content{
+       margin: 0;
    }
     
 }
